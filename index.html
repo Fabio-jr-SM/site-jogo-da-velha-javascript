@@ -1,0 +1,46 @@
+<!--
+    Jogo da velha produzido pela honra e glória do senhor com o intuito de voltar a programar usando JS!
+                Autor: Fabio Junior Senna Moura
+                    Tec. Informática
+                    Eng. da Computação 1º Semestre
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <style>
+        #posicao1 {
+            display: block;
+        }
+
+        #posicaoClicada {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Jogo da velha</h1>
+
+    <button id="posicao1" onclick="posicao()">
+    </button>
+    <p id="posicaoClicada">X</p>
+    <script>
+        var num
+        function posicao() {
+
+            document.getElementById("posicao1").style.display = none
+            document.getElementById("posicaoClicada").style.display = block
+
+
+
+        }
+    </script>
+</body>
+
+</html>
